@@ -1,3 +1,10 @@
+/* Some game variables:
+  window.gsc is the general scale (used to zoom in and out of the game).
+  window.snake.ehang is the snake's angle. Range: -PI to PI.
+  window.snake.ang is the snake's angle. Range: 0 to 2*PI.
+  window.snake.sc is the snake's scale (how wide it is).
+*/
+
 var util = {
   setMouseCoordinates: function(point) {
     window.xm = point.x;
